@@ -1,11 +1,20 @@
-/*----------------------------------------------------------------------------*\
-	COMMON
-\*----------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Lexend:wght@100..900&family=Quintessential&display=swap');
+
+
+
+.title {
+	font-family: "Quintessential", sans-serif;
+	font-weight: bold;
+	font-size: 250%;
+	text-align: center;
+	padding-top: 7px;
+	padding-bottom: 10px;
+}
 
 /* Background image cropped from lecture slide */
 body {
-	font-family: Arial, Helvetica, sans-serif;
-	background: url("../img/bg.png") repeat;
+	font-family: "Lexend", sans-serif;
+	background: url("../img/background.png") repeat;
 	font-size: 120%;
 	color: rgb(46, 0, 0);
 }
@@ -29,7 +38,7 @@ header, footer {
 	float: left;
 	width: 12em;
 	text-align: center;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family: 'Lexend', Geneva, Tahoma, sans-serif;
 }
 
 #banner {
@@ -101,9 +110,8 @@ h1 {
 	padding-right: 1em;
 }
 
-/* Bullet image cropped from lecture notes */
 ul#menu {
-	list-style-image: url('../img/bullet.png');
+	list-style-image: url('../img/bulletpt.png');
 	padding-left: 20px;
 }
 
@@ -155,11 +163,16 @@ input.qty, td.subtotal, td.price{
 
 td.total {
 	text-align: right;
+	font-weight: bold;
 }
 
 /*----------------------------------------------------------------------------*\
 	MUSIC
 \*----------------------------------------------------------------------------*/
+
+.musicdesc {
+	font-size:medium;
+}
 
 .music {
 	width: 70%;

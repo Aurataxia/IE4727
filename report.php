@@ -99,7 +99,7 @@ if ($revenues[0] === $revenueJustJava->revenue) {
 	<div class="wrapper">
 		<!-- Header -->
 		<header>
-			<img id="banner" src="assets/img/banner.png" alt="JavaJam Coffee House">
+			<h1 class="title"> JavaJam Coffee House</h1>
 		</header>
 
 		<div class="content-wrapper">
@@ -113,7 +113,7 @@ if ($revenues[0] === $revenueJustJava->revenue) {
 						<li><a href="jobs.html">Jobs</a></li>
 						<li>&nbsp;</li>
 						<li>&nbsp;</li>
-						<li><u>Admin Pages</u></li>
+						<li><i>Admin Pages</i></li>
 						<li><a href="product-price-update.php">Product Price Update</a></li>
 						<li><a href="daily-sales-report.php" id="current">Daily Sales Report</a></li>
 					</ul>

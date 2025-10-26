@@ -14,7 +14,7 @@
 
 		<!-- Header -->
 		<header>
-			<img id="banner" src="assets/img/banner.png" alt="JavaJam Coffee House">
+			<h1 class="title"> JavaJam Coffee House</h1>
 		</header>
 
 		<div class="content-wrapper">
@@ -28,7 +28,7 @@
 						<li><a href="jobs.html">Jobs</a></li>
 						<li>&nbsp;</li>
 						<li>&nbsp;</li>
-						<li><u>Admin Pages</u></li>
+						<li><i>Admin Pages</i></li>
 						<li><a href="product-price-update.php" id="current">Product Price Update</a></li>
 						<li><a href="daily-sales-report.php">Daily Sales Report</a></li>
 					</ul>

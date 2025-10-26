@@ -116,7 +116,7 @@ if (isset($_POST)) {
 
 		<!-- Header -->
 		<header>
-			<img id="banner" src="assets/img/banner.png" alt="JavaJam Coffee House">
+       		<h1 class="title"> JavaJam Coffee House</h1>
 		</header>
 
 		<div class="content-wrapper">
@@ -130,7 +130,7 @@ if (isset($_POST)) {
 						<li><a href="jobs.html">Jobs</a></li>
 						<li>&nbsp;</li>
 						<li>&nbsp;</li>
-						<li><u>Admin Pages</u></li>
+						<li><i>Admin Pages</i></li>
 						<li><a href="product-price-update.php">Product Price Update</a></li>
 						<li><a href="daily-sales-report.php">Daily Sales Report</a></li>
 					</ul>
@@ -145,10 +145,10 @@ if (isset($_POST)) {
 					<table class="menu">
 						<thead>
 							<tr>
-								<td>Drink</td>
-								<td>Description</td>
-								<td>Qty</td>
-								<td>Subtotal</td>
+								<td><b>Drink</b></td>
+								<td><b>Description</b></td>
+								<td><b>Qty</b></td>
+								<td><b>Subtotal</b></td>
 							</tr>
 						</thead>
 
@@ -162,7 +162,7 @@ if (isset($_POST)) {
 									<div>
 										<label for="endless-just-java">
 											<input type="radio" name="just_java" id="endless-just-java" value="just_java_endless" data-price="<?= $prices->just_java_endless ?>">
-											Endless Cup $<?= $prices->just_java_endless ?>
+											Endless Cup <b>$<?= $prices->just_java_endless ?></b>
 										</label>
 									</div>
 								</td>
@@ -183,11 +183,11 @@ if (isset($_POST)) {
 									<div>
 										<label for="single-cafe-au-lait">
 											<input type="radio" name="cafe_au_lait" id="single-cafe-au-lait" value="cafe_au_lait_single" data-price="<?= $prices->cafe_au_lait_single ?>">
-											Single $<?= $prices->cafe_au_lait_single ?>
+											Single <b>$<?= $prices->cafe_au_lait_single ?></b>
 										</label>
 										<label for="double-cafe-au-lait">
 											<input type="radio" name="cafe_au_lait" id="double-cafe-au-lait" value="cafe_au_lait_double" data-price="<?= $prices->cafe_au_lait_double ?>">
-											Double $<?= $prices->cafe_au_lait_double ?>
+											Double <b>$<?= $prices->cafe_au_lait_double ?></b>
 										</label>
 									</div>
 								</td>
@@ -208,11 +208,11 @@ if (isset($_POST)) {
 									<div>
 										<label for="single-iced-cappuccino">
 											<input type="radio" name="iced_cappuccino" id="single-iced-cappuccino" value="iced_cappuccino_single" data-price="<?= $prices->iced_cappuccino_single ?>">
-											Single $<?= $prices->iced_cappuccino_single ?>
+											Single <b>$<?= $prices->iced_cappuccino_single ?></b>
 										</label>
 										<label for="double-iced-cappuccino">
 											<input type="radio" name="iced_cappuccino" id="double-iced-cappuccino" value="iced_cappuccino_double" data-price="<?= $prices->iced_cappuccino_double ?>">
-											Double $<?= $prices->iced_cappuccino_double ?>
+											Double <b>$<?= $prices->iced_cappuccino_double ?></b>
 										</label>
 									</div>
 								</td>
