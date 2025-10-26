@@ -1,14 +1,4 @@
 <?php
-
-/**
- * Allows admin to update prices of drinks from the dashboard.
- *
- * Program assumes users are trusted. Input validation is not performed.
- *
- * @author Zhu Zihao <zhuz0010@e.ntu.edu.sg>
- * @version 1.0
- */
-
 $db = new mysqli('localhost', 'root', '', 'javajam');
 
 // Check connection
