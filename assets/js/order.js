@@ -1,14 +1,3 @@
-/**
- * Modify order from menu for JavaJam Coffee House.
- *
- * The sub-total for each order should be displayed along the total amount
- * below the sub-totals. The sub-totals and total should be computed using
- * JavaScript function.
- *
- * @author Zhu Zihao <zhuz0010@e.ntu.edu.sg>
- * @version 1.1.2
- */
-
 'use strict'
 
 // Form elements
@@ -26,9 +15,8 @@ const subIcedCappuccino = document.getElementById('sub-iced-cappuccino')
 // Total
 const totalCost = document.getElementById('total-cost')
 
-/**
- * Calculate total & subtotals of drinks ordered on the fly.
- */
+
+// Calculate total & subtotals of drinks
 orderForm.addEventListener('change', (event) => {
   if (endlessJustJava.checked) {
     const priceEndlessJustJava = parseFloat(endlessJustJava.dataset.price)
@@ -55,9 +43,8 @@ orderForm.addEventListener('change', (event) => {
   ).toFixed(2)
 })
 
-/**
- * Alert user on form submit.
- */
+// Alert user on form submit.
+ 
 submitBtn.addEventListener('click', (event) => {
   event.preventDefault()
 
@@ -89,7 +76,7 @@ function getSelectedIcedCappuccinoPrice () {
 }
 
 /**
- * Returns calculated subtotal given price and quantity of order.
+Returns calculated subtotal given price and quantity of order.
  *
  * @param {Number} price - Price of selected option
  * @param {Number} qty - Quantity of drinks for order

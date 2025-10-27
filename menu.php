@@ -167,7 +167,7 @@ if (isset($_POST)) {
 									</div>
 								</td>
 								<td class="qty">
-									<lable for="qty-just-java">Qty:</lable>
+									<label for="qty-just-java">Qty:</label>
 									<input class="qty" type="number" min="0" value="0" name="just_java_qty" id="qty-just-java">
 								</td>
 								<td class="subtotal">
@@ -192,7 +192,7 @@ if (isset($_POST)) {
 									</div>
 								</td>
 								<td class="qty">
-									<lable for="qty-cafe-au-lait">Qty:</lable>
+									<label for="qty-cafe-au-lait">Qty:</label>
 									<input class="qty" type="number" min="0" value="0" name="cafe_au_lait_qty" id="qty-cafe-au-lait">
 								</td>
 								<td class="subtotal">
@@ -217,7 +217,7 @@ if (isset($_POST)) {
 									</div>
 								</td>
 								<td class="qty">
-									<lable for="qty-iced-cappuccino">Qty:</lable>
+									<label for="qty-iced-cappuccino">Qty:</label>
 									<input class="qty" type="number" min="0" value="0" name="iced_cappuccino_qty" id="qty-iced-cappuccino">
 								</td>
 								<td class="subtotal">

@@ -161,6 +161,11 @@ input.qty, td.subtotal, td.price{
 	width: 5em;
 }
 
+td.price, td.subtotal{
+	text-align: center;
+}
+
+
 td.total {
 	text-align: right;
 	font-weight: bold;

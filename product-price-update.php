@@ -132,7 +132,7 @@ $prices = $db->query($getCurrentPrices)->fetch_object();
 								</td>
 								<td class="price">
 									New price:
-									<input type="text" name="just_java_price">
+									<input size="10" type="text" name="just_java_price">
 								</td>
 							</tr>
 							<tr class="menu-item">
@@ -154,7 +154,7 @@ $prices = $db->query($getCurrentPrices)->fetch_object();
 								</td>
 								<td class="price">
 									New price:
-									<input type="text" name="cafe_au_lait_price">
+									<input size="10" type="text" name="cafe_au_lait_price">
 								</td>
 							</tr>
 							<tr class="menu-item">
@@ -176,7 +176,7 @@ $prices = $db->query($getCurrentPrices)->fetch_object();
 								</td>
 								<td class="price">
 									New price:
-									<input type="text" name="iced_cappuccino_price">
+									<input size="10" type="text" name="iced_cappuccino_price">
 								</td>
 							</tr>
 						</tbody>
