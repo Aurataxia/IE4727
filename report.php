@@ -1,18 +1,4 @@
 <?php
-
-/**
- * Generated report page based on user selection.
- *
- * 1. Show total dollar sales by products and
- * 2. Show sales quantities by product categories (single and double shots)
- *
- * It should also be possible to report the product category which achieved the
- * highest dollar sales in the latter report.
- *
- * @author Zhu Zihao <zhuz0010@e.ntu.edu.sg>
- * @version 1.0
- */
-
 $reportType = $_GET['reportType'];
 
 // Source, userid, password, database
