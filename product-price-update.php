@@ -126,7 +126,7 @@ $prices = $db->query($getCurrentPrices)->fetch_object();
 									<div>
 										<label for="endless-just-java">
 											<input type="radio" name="just_java" id="endless-just-java" value="just_java_endless">
-											Endless Cup $<?= $prices->just_java_endless ?>
+											Endless Cup <b>$<?= $prices->just_java_endless ?></b>
 										</label>
 									</div>
 								</td>
@@ -144,11 +144,11 @@ $prices = $db->query($getCurrentPrices)->fetch_object();
 									<div>
 										<label for="single-cafe-au-lait">
 											<input type="radio" name="cafe_au_lait" id="single-cafe-au-lait" value="cafe_au_lait_single">
-											Single $<?= $prices->cafe_au_lait_single ?>
+											Single <b>$<?= $prices->cafe_au_lait_single ?></b>
 										</label>
 										<label for="double-cafe-au-lait">
 											<input type="radio" name="cafe_au_lait" id="double-cafe-au-lait" value="cafe_au_lait_double">
-											Double $<?= $prices->cafe_au_lait_double ?>
+											Double <b>$<?= $prices->cafe_au_lait_double ?></b>
 										</label>
 									</div>
 								</td>
@@ -166,11 +166,11 @@ $prices = $db->query($getCurrentPrices)->fetch_object();
 									<div>
 										<label for="single-iced-cappuccino">
 											<input type="radio" name="iced_cappuccino" id="single-iced-cappuccino" value="iced_cappuccino_single">
-											Single $<?= $prices->iced_cappuccino_single ?>
+											Single <b>$<?= $prices->iced_cappuccino_single ?></b>
 										</label>
 										<label for="double-iced-cappuccino">
 											<input type="radio" name="iced_cappuccino" id="double-iced-cappuccino" value="iced_cappuccino_double">
-											Double $<?= $prices->iced_cappuccino_double ?>
+											Double <b>$<?= $prices->iced_cappuccino_double ?></b>
 										</label>
 									</div>
 								</td>
